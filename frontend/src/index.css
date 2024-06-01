@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.header > header {
+		align-items: initial;
+		@apply !flex-col pt-10 pb-20;
+	}
+}
